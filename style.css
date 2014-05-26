@@ -30,3 +30,11 @@ img#smallImage {                                                        /* afmet
 img#largeImgage {
 	display:none;
 }
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
