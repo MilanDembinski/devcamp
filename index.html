@@ -1,0 +1,27 @@
+<!DOCTYPE html><!--HTML5 doctype-->
+<html>
+
+<head>
+	<title>Super coole camera app</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+     
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<button onclick="CAMERAALERT.camera.capturePhoto();">Maak foto</button> <br>
+    <button onclick="CAMERAALERT.camera.capturePhotoEdit();">Capture Editable Photo</button> <br>
+    <button onclick="CAMERAALERT.camera.getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
+    <button onclick="CAMERAALERT.camera.getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
+
+    <img id="smallImage" src="">
+    <img id="largeImage" src=""> 
+
+    <script src='cordova.js'></script>
+    <script src='ready.min.js'></script>
+    <script src='quo.js'></script>
+    <script src='script.js'></script>     
+</body>
+
+</html>
