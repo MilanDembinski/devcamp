@@ -22,8 +22,8 @@ var CAMERAALERT = CAMERAALERT || {};
     },
       // camera maakt foto
     onPhotoDataSuccess: function(imageData){
-        var smallImage = document.getElementById('smallImage');                
-        smallImage.style.display = 'block';
+        var smallImage = document.getElementById('smallImage'); 
+        smallImage.className = smallImage.className + " show";
         smallImage.src = "data:image/jpeg;base64," + imageData;
     // geeft melding
         alert('Mooie foto!');                                                   
@@ -33,7 +33,7 @@ var CAMERAALERT = CAMERAALERT || {};
     // zoekt foto
         var largeImage = document.getElementById('largeImage'); 
         // laat foto zien
-      largeImage.style.display = 'block'; 
+      largeImage.className = largeImage.className + " show";
         // locatie van foto
       largeImage.src = imageURI;                                            
     },
