@@ -23,8 +23,8 @@ button{
 		
 img#smallImage {                                                        /* afmeting van foto */
 	display:none;
-	width: 300px;
-	height: 250px;
+	width: 75%;
+	height: auto;
 }
 
 img#largeImgage {
