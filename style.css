@@ -9,7 +9,7 @@ input, textarea  {
 
 body { 
 	background-color:#b0c4de;                                          /* kleur van bg */
-	color:black;                                                       /* kleur van tekst */
+	color:red;                                                       /* kleur van tekst */
 }
 
 button{
